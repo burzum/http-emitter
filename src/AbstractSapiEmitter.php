@@ -5,7 +5,7 @@ namespace Narrowspark\HttpEmitter;
 use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
 
-abstract class AbstractSapiEmitter
+abstract class AbstractSapiEmitter implements ResponseEmitterInterface
 {
     /**
      * Emit a response.
